@@ -1,13 +1,9 @@
-let student = {
-	name : "Abdullah"
+function getKeys(obj){
+	return Object.keys(obj)
 }
 
-function getKeys(obj){
-	let arrObj =[];
-	for(key in obj){
-		arrObj.push(key)
-}
-	
-	return arrObj;
-}
-let arr = getKeys(student);
+const student = {
+  name: "John",
+};
+
+console.log(getKeys(student))
